@@ -4,6 +4,7 @@ module.exports = {
     "ack",
     "ag",
     "asdf",
+    "bash-completion",
     // Install GNU core utilities (those that come with macOS are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
     "coreutils",
@@ -26,6 +27,7 @@ module.exports = {
     // https://github.com/jkbrzt/httpie
     "httpie",
     "hub",
+    "htop",
     // jq is a sort of JSON grep
     "jq",
     "jump",
@@ -65,6 +67,7 @@ module.exports = {
     "firefox",
     "flux",
     "github",
+    "google-chrome",
     "gpg-suite",
     //'ireadfast',
     "insomnia",
