@@ -114,6 +114,8 @@ module.exports = {
   ],
   mas: [
     // spark mail app
-    1176895641
+    1176895641,
+    // wunderlist
+    410628904
   ]
 };
