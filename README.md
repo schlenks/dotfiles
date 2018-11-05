@@ -58,7 +58,7 @@ Don't you hate getting a new laptop or joining a new team and then spending a wh
 
 When I finish with your machine, you will be able to look at your command-line in full-screen mode like this (running iTerm):
 
-![iTerm Screenshot](https://raw.githubusercontent.com/atomantic/dotfiles/master/img/term.png)
+![iTerm Screenshot](https://raw.githubusercontent.com/schlenks/dotfiles/master/img/term.png)
 
 Check out how your shell prompt includes the full path, node.js version & the working git branch along with a lot of other info!
 We use powerlevel9k for command prompt, so customization of what you want is easily changable in `./.zshrc`
@@ -78,12 +78,12 @@ To launch fullscreen, hit `Command + Enter` in iTerm, then use `Command + d` and
 
 > Note: I recommend forking this repo in case you don't like anything I do and want to set your own preferences (and pull request them!)
 
-> REVIEW WHAT THIS SCRIPT DOES PRIOR TO RUNNING: https://github.com/atomantic/dotfiles/blob/master/install.sh#L275-L1038
+> REVIEW WHAT THIS SCRIPT DOES PRIOR TO RUNNING: https://github.com/schlenks/dotfiles/blob/master/install.sh#L275-L1038
 > It's always a good idea to review arbitrary code from the internet before running it on your machine with sudo power!
 > You are responsible for everything this script does to your machine (see LICENSE)
 
 ```bash
-git clone --recurse-submodules https://github.com/atomantic/dotfiles ~/.dotfiles
+git clone --recurse-submodules https://github.com/schlenks/dotfiles ~/.dotfiles
 cd ~/.dotfiles;
 # run this using terminal (not iTerm, lest iTerm settings get discarded on exit)
 ./install.sh
@@ -126,7 +126,7 @@ You can `cron ~/.crontab` if you want to add my nightly cron software updates.
 
 ## Remap Caps-Lock
 - I highly recommend remapping your Caps Lock key to Control per [Dr. Bunsen](http://www.drbunsen.org/remapping-caps-lock/):
-![Remap Caps Lock](https://raw.githubusercontent.com/atomantic/dotfiles/master/img/remap_capslock.png)
+![Remap Caps Lock](https://raw.githubusercontent.com/schlenks/dotfiles/master/img/remap_capslock.png)
 
 # Settings
 This project changes a number of settings and configures software on MacOS.
