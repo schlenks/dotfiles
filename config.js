@@ -4,6 +4,8 @@ module.exports = {
     "ack",
     "ag",
     "asdf",
+    "autoconf",
+    "automake",
     "bash-completion",
     // Install GNU core utilities (those that come with macOS are outdated)
     // Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -18,6 +20,7 @@ module.exports = {
     //'gifsicle',
     // Good-lookin' diffs for git - https://github.com/so-fancy/diff-so-fancy
     "diff-so-fancy",
+    "fop",
     "gnupg",
     // Install GNU `sed`, overwriting the built-in `sed`
     // so we can do "sed -i 's/foo/bar/' file" instead of "sed -i '' 's/foo/bar/' file"
@@ -48,7 +51,8 @@ module.exports = {
     "vim --with-override-system-vi",
     "watch",
     // Install wget with IRI support
-    "wget --enable-iri"
+    "wget --enable-iri",
+    "wxwidgets"
   ],
   cask: [
     //'adium',
@@ -72,7 +76,9 @@ module.exports = {
     //'ireadfast',
     "insomnia",
     "iterm2",
+    "java",
     "lastpass",
+    "libxslt",
     //'little-snitch',
     //'macbreakz',
     //'micro-snitch',
