@@ -70,6 +70,7 @@ module.exports = {
     "encryptme",
     "firefox",
     "flux",
+    "font-fira-code",
     "github",
     "google-chrome",
     "gpg-suite",
